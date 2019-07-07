@@ -1,0 +1,49 @@
+
+
+
+
+A 
+A wiki is run using 
+The online encyclopedia project 
+Ward Cunningham and co-author 
+A wiki enables communities of editors and contributors to write documents collaboratively. All that people require to contribute is a computer, 
+Some wikis have an Edit button or link directly on the page being viewed, if the user has permission to edit the page. This can lead to a text-based editing page where participants can structure and format wiki pages with a simplified markup language, sometimes known as 
+Wikis have favoured plain-text editing, with fewer and simpler conventions than HTML, for indicating style and structure. Although limiting access to HTML and 
+"I've had 
+"You mean you can't take 
+Wikis can also make 
+Some wikis keep a record of changes made to wiki pages; often, every version of the page is stored. This means that authors can revert to an older version of the page should it be necessary because a mistake has been made, such as the content accidentally being deleted or the page has been vandalized to include offensive or malicious text or other inappropriate content.
+
+Many wiki implementations, such as 
+Within the text of most pages, there are usually a large number of 
+Links are created using a specific syntax, the so-called "link pattern". Originally, most wikis
+Most wikis offer at least a title 
+<a href="/wiki/WikiWikiWeb" title="WikiWikiWeb">WikiWikiWeb</a>
+Cunningham was, in part, inspired by 
+<a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a>
+In the late 1990s and early 2000s, the word "wiki" was used to refer to both user-editable websites and the software that powers them; the latter definition is still occasionally in use.
+<a href="/wiki/Wiki_software" title="Wiki software">Wiki software</a>
+Wikis can also be created on a "
+Wikis are generally designed with the philosophy of making it easy to correct mistakes, rather than making it difficult to make them. Thus, while wikis are very open, they provide a means to verify the validity of recent additions to the body of pages. The most prominent, on almost every wiki, is the "Recent Changes" page—a specific list numbering recent edits, or a list of edits made within a given time frame.
+In case unacceptable edits are missed on the "recent changes" page, some wiki engines provide additional content control. It can be monitored to ensure that a page, or a set of pages, keeps its quality. A person willing to maintain pages will be warned of modifications to the pages, allowing him or her to verify the validity of new editions quickly. This can be seen as a very pro-author and anti-editor feature.
+ Critics of publicly editable wiki systems argue that these systems could be easily tampered with by malicious individuals ("vandals") or even by well-meaning but unskilled users who introduce errors into the content. While proponents argue that the community of users can catch malicious content and correct it.
+The open philosophy of wiki – allowing anyone to edit content – does not ensure that every editor's intentions are well-mannered. For example, 
+The amount of vandalism a wiki receives depends on how open the wiki is. For instance, some wikis allow unregistered users, identified by their 
+Edit wars can also occur as users repetitively revert a page to the version they favor. In some cases, editors with opposing views of which content should appear or what formatting style should be used will change and re-change each other's edits. This results in the page being "unstable" from a general users' perspective, because each time a general user comes to the page, it may look different. Some wiki software allows an administrator to stop such edit wars by locking a page from further editing until a decision has been made on what version of the page would be most appropriate.
+<a href="/wiki/Malware" title="Malware">Malware</a>
+The English Wikipedia has the largest user base among wikis on the 
+In 2005, the Gartner Group, noting the increasing popularity of wikis, estimated that they would become mainstream collaboration tools in at least 50% of companies by 2009.
+Wikis have found some use within the legal profession, and within government. Examples include the 
+In academic context, wiki has also been used as project collaboration and research support system.
+A city wiki (or local wiki) is a wiki used as a 
+WikiNodes are pages on wikis that describe related wikis. They are usually organized as neighbors and delegates. A 
+The four basic types of users who participate in wikis are reader, author, wiki administrator and system administrator. The system administrator is responsible for installation and maintenance of the wiki engine and the container web server. The wiki administrator maintains wiki content and is provided additional functions pertaining to pages (e.g. page protection and deletion), and can adjust users' access rights by, for instance, blocking them from editing.
+A study of several hundred wikis showed that a relatively high number of administrators for a given content size is likely to reduce growth;
+Active conferences and meetings about wiki-related topics include:
+
+Former wiki-related events include:
+
+Wikis typically have a set of rules governing user behavior. Wikipedia, for instance, has a labyrinthine set of policies and guidelines summed up in its five pillars: Wikipedia is an encyclopedia; Wikipedia has a neutral point of view; Wikipedia is free content; Wikipedians should interact in a respectful and civil manner; and Wikipedia does not have firm rules. Many wikis have adopted a set of commandments. For instance, 
+Joint authorship of articles, in which different users participate in correcting, editing, and compiling the finished product, can also cause editors to become 
+Wikis and their users can be held liable for certain activities that occur on the wiki. If a wiki owner displays indifference and forgoes controls (such as banning copyright infringers) that he could have exercised to stop copyright infringement, he may be deemed to have authorized infringement, especially if the wiki is primarily used to infringe copyrights or obtains direct financial benefit, such as advertising revenue, from infringing activities.
+<br/>

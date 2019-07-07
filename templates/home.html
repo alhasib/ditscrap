@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Information System for Cricket Clubs of Bangladesh</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+      .content {
+        max-width: 500px;
+        margin: auto;
+        background: white;
+        padding: 50px;
+      }
+      </style>
+
+<link rel="shortcut icon" href="favicon.ico">  
+</head>
+<body>
+  
+<div class="content">
+ <div class="jumbotron">
+<div class="container">
+    <form action="report" method="post">
+            {% csrf_token %}
+        <table>
+            <tr><td> <label for="id_name">Enter Your Link:</label> </td> 
+                <td><input type="url" name="e_links"></td>
+            </tr>
+            <tr>
+                <td>  <label for="id_name">Select The Tag:</label> </td>
+                <td>
+                    <select name = "e_tag">
+                        <option value = "image">Image</option>
+                        <option value = "heading">Heading</option>
+                        <option value = "paragraph">Paragraph</option>
+                        <option value = "telephone">Telephone</option>
+                     </select>
+                </td>
+            </tr>
+     
+    
+                
+        </table>
+                <input type="submit" class="btn btn-info" value="Submit">
+
+    </form>
+</div>
+</div>
+</body>
+<hr>
+<footer><center>&copy; Copyright 2019</center></footer>
+
+</html>
