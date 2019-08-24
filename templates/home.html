@@ -14,7 +14,9 @@
         margin: auto;
         background: white;
         padding: 50px;
+
       }
+      .jumbotron p {font-size:15px }
       </style>
 
 <link rel="shortcut icon" href="favicon.ico">  
@@ -24,6 +26,7 @@
 <div class="content">
  <div class="jumbotron">
 <div class="container">
+        <p><a href="{% url 'logout' %}">LogOut</a></p>
     <form action="report" method="post">
             {% csrf_token %}
         <table>

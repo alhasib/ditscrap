@@ -2,7 +2,8 @@ from django.shortcuts import render
 from django.shortcuts import render, HttpResponse
 # Create your views here.
 
-
+from django.shortcuts import render, redirect
+from django.contrib import auth, messages
 
 
 import os
@@ -21,11 +22,41 @@ from bs4 import BeautifulSoup
 import xlwt 
 from xlwt import Workbook
 
+from django.contrib.auth.decorators import login_required
 
+def login(request):
 
+    if request.user.is_authenticated:
+        return redirect('home')
+ 
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        print(password)
+        user = auth.authenticate(username=username, password=password)
+        if user is not None:
+            # correct username and password login the user
+            auth.login(request, user)
+            return redirect('home')
+ 
+        else:
+            messages.error(request, 'Error wrong username/password')
+ 
+    return render(request, 'login.html')
+ 
+
+@login_required(login_url='login')
 def home(request):
     return render(request, "home.html")
 
+
+
+ 
+def logout(request):
+    auth.logout(request)
+    return redirect('login')  
+  
+@login_required(login_url='login')
 def scrap_data(request):
     e_links = request.POST['e_links']
     e_tag = request.POST['e_tag']
@@ -160,4 +191,6 @@ def scrap_data(request):
         except:
             pass              
 
-    return HttpResponse("check your computer") 
+    return HttpResponse("check your Folder") 
+
+

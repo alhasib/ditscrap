@@ -20,7 +20,10 @@ from defodilscrapapp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home),
+    path('', login, name = 'login'),
+    path('logout', logout, name = 'logout'),
+
+    path('home', home, name='home'),
     path('report', scrap_data, name = 'report'),
 
 ]
